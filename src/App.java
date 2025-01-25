@@ -1,5 +1,6 @@
 public class App {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+    static Point point = new Point(1,2);
+        public static void main(String[] args) throws Exception {
+            point.showCoordinates();
     }
 }
