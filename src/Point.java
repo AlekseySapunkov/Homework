@@ -17,11 +17,11 @@ public class Point {
         System.out.println(Arrays.toString(coordinates));
     }
     public  void findDistanceFromTheOrigin(){
-        double distance = Math.sqrt(Math.pow((x-0),2)-Math.pow((y-0),2));
+        double distance = Math.sqrt(Math.pow((x-0),2.0)+Math.pow((y-0),2));
         System.out.println(distance);
     }
     public  void moveToVector(double a, double b){
          double[] newCoordinate = new double[]{x+a, y+b};
-         System.out.println(newCoordinate);
+         System.out.println(Arrays.toString(newCoordinate));
     }
 }
